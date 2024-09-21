@@ -570,7 +570,7 @@
 }
 @media(max-width: 500px) {
   .aboutme-text {
-    font-size: 0.5em;
+    font-size: 1.5em;
   }
   .donate-avatar, .home-avatar, .donate-egp, .home-stwmt {
     display: none;
