@@ -564,3 +564,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+.aboutme-text {
+  font-size: 1em;
+}
+@media(max-width: 500px) {
+  .aboutme-text {
+    font-size: 0.5em;
+  }
+  .donate-avatar, .home-avatar, .donate-egp, .home-stwmt {
+    display: none;
+  }
+  .home-buttons {
+    translate: 25% 0%;
+    -webkit-translate: 25% 0%;
+    -moz-translate: 25% 0%;
+    -o-translate: 25% 0%;
+  }
+  .home-text15 {
+    font-size: 1.25em;
+  }
+}
