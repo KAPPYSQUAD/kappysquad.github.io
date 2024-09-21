@@ -1,0 +1,379 @@
+.donate-container1 {
+  width: 100%;
+  display: flex;
+  z-index: 0;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/pexels-oleksandr-tiupa-53788-192136-1500w.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.donate-window {
+  gap: 15px;
+  top: 50%;
+  flex: 0 0 auto;
+  left: 50%;
+  width: 70%;
+  height: auto;
+  margin: -12px;
+  display: flex;
+  padding: 12px;
+  z-index: 111;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 7px 25px 0px #000000,10px 10px 10px 0px rgba(27, 202, 0, 0.25);
+  transition: 0.3s;
+  align-items: center;
+  border-color: #000000;
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: fadeIn;
+  flex-direction: column;
+  animation-delay: 0s;
+  backdrop-filter: blur(4px);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 0.00%,rgba(20, 147, 0, 0.15) 99.00%);
+  animation-duration: 1.5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.donate-window:hover {
+  width: 80%;
+  height: auto;
+  margin: -18px;
+  padding: 18px;
+  box-shadow: 0px 0px 30px 2px #FFFFFF;
+  border-color: #FFFFFF;
+  border-radius: 36px;
+}
+.donate-head {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.donate-link1 {
+  display: contents;
+}
+.donate-avatar {
+  width: 125px;
+  box-shadow: 7px 7px 10px 0px #000000,0px 0px 10px 2px #1bca00;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #000000;
+  border-width: 3px;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.donate-avatar:hover {
+  box-shadow: 0px 0px 10px 0px #000000,3px 3px 10px 2px #1bca00;
+  border-radius: 25px;
+}
+.donate-info1 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.donate-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.donate-displayname {
+  color: #ffffff;
+  align-self: flex-start;
+}
+.donate-links {
+  top: 1px;
+  left: 121px;
+  width: 65px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 10px;
+  animation-name: pulse;
+  animation-delay: 150ms;
+  background-color: rgba(27, 202, 0, 0.25);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
+}
+.donate-link2 {
+  display: contents;
+}
+.donate-roblox {
+  top: 5px;
+  left: 5px;
+  width: 25px;
+  filter: invert(100%);
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+  animation-name: pulse;
+  animation-delay: 300ms;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.donate-telegramm {
+  top: 5px;
+  right: 5px;
+  width: 25px;
+  filter: invert(100%);
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+  animation-name: pulse;
+  animation-delay: 450s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.donate-link3 {
+  display: contents;
+}
+.donate-username {
+  color: #ffffff;
+  text-decoration: none;
+}
+.donate-text12 {
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.donate-donate {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.donate-menu {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-left: 5px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.donate-info2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.donate-header {
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+}
+.donate-buttons1 {
+  gap: 10px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  justify-content: center;
+}
+.donate-bh {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-bh:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text17 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
+.donate-egs {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-egs:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text20 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
+.donate-egp {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-egp:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text23 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
+.donate-buttons2 {
+  gap: 10px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  justify-content: center;
+}
+.donate-gh {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-gh:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text26 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
+.donate-gp {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-gp:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text29 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
+.donate-home {
+  color: #ffffff;
+  right: 7px;
+  bottom: 7px;
+  z-index: 110;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #000000, 0px 0px 10px 0px rgb(27, 202, 0);
+  transition: 0.3s;
+  border-color: rgb(27, 202, 0);
+  border-width: 2px;
+  border-radius: 24px;
+  animation-name: pulse, fadeIn;
+  animation-delay: 600ms, 0ms;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgba(20, 147, 0, 0.5) 1.00%,rgba(27, 202, 0, 0.5) 100.00%);
+  animation-duration: 300ms, 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: 2, 1;
+  animation-timing-function: ease, ease-in-out;
+}
+.donate-home:hover {
+  padding: 0.55rem 1.5rem;
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-color: #ffffff;
+  border-radius: 36px;
+}
+.donate-text32 {
+  font-size: 24px;
+  font-family: "LittlePawsRegular";
+}
