@@ -224,5 +224,14 @@
         </a>
       </div>
     </div>
+    <script>
+      function checkWindowWidth() {
+        if (window.innerWidth <= 450) {
+            window.location.href = '/';
+        }
+      }
+      setInterval(checkWindowWidth, 200);
+      window.addEventListener('resize', checkWindowWidth);
+    </script>
   </body>
 </html>
